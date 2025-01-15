@@ -3,7 +3,7 @@ NAME= ex02
 CXX= c++
 CXXFLAGS= -Wall -Werror -Wextra -std=c++98 #-g
 
-SRC= Array.cpp main.cpp
+SRC= main.cpp
 
 OBJ_DIR= objects
 OBJ= $(addprefix $(OBJ_DIR)/, $(SRC:%.cpp=%.o))
